@@ -4,6 +4,10 @@ import java.util.List;
 
 public class Immigrant {
 
+    public static boolean checkANum(String anumid) {
+        return true;
+    }
+
     // Submit a request form
     public void submitRequest() {
         // default return
