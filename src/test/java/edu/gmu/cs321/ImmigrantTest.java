@@ -6,6 +6,8 @@ import org.junit.Test;
 public class ImmigrantTest {
     @Test
     public void testcheckAnum() {
-        Immigrant test    
+        Immigrant testImm = new Immigrant();
+        boolean testRest = testImm.checkANum("1");
+        assertTrue( testRest );    
     }
 }
